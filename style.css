@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navs{
+padding-left: 60%;
+}
+.navs ul{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+   
+}
+a{
+    color:white;
+    margin-left: 10px;
+     padding-left: 50px;
+     text-decoration: none;
+    
+}
+body{
+ background-color: #004445; 
+
+}
+header{
+    display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-between; 
+    padding: 20px 0;
+}
+.navs{
+    background-color: black;
+  
+}
+#lgo{
+    color:white;
+    padding-right: 30%;
+    float: left;   
+}
+.prof-image {
+   background-image: url("pics/laptop1.jpeg"); 
+   width:100vw ;
+   height: 100vh; 
+   background-size: cover;
+   object-fit: contain;
+   margin-top: 0px;
+   background-repeat: no-repeat;
+   transition: transform;
+   border-radius:8px;
+
+} 
+#text{
+    transition:transform ;
+    text-align: center;
+    padding: 20%;
+    margin-right: 20%;
+    color:white;
+    font-size: 40px;
+    font-weight: 900;
+}
+#tittle{
+    text-align: center;
+    color: white;
+    
+}
+.about{
+    display: flex;
+    text-align: right;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding:10px;
+    height: 700px;
+    
+}
+.row:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+ 
+#paragraph{
+   padding-top: 15%; 
+   color: white; 
+  
+ }
+
+
+    
+
+
+
+
